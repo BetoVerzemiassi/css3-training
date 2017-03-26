@@ -1,0 +1,252 @@
+    .container{
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: black;
+    }
+    
+    .center-all,
+    .hair,    
+    .eye,
+    .eye-black,
+    .norse,
+    .mouth,
+    .bolt{
+      margin-left: 150px;
+    }
+    
+    .head{         
+        border: 1px solid black;
+        border-top: 0;
+        margin-left: 190px;
+        width: 130px;
+        height: 200px;
+        background: yellow;
+        margin-top: 50px;        
+        border-top-left-radius:30px;
+        border-top-right-radius:30px;     
+        border-bottom-left-radius:50px;
+        border-bottom-right-radius:50px;       
+    }
+    
+    .norse{
+        top: 140px;
+        left: 82px;
+        width: 45px;
+        height: 45px;      
+        background: yellow;
+        border-radius: 100%;
+        border: 1px solid #3B3F4B;
+        position: absolute;
+    }
+    
+    
+    .mouth{ 
+        position: absolute;
+        top: 220px;
+        left: 70px;
+        width: 72px;
+        height:30px;
+        border-top:solid 2px #000;
+        border-radius:25%;
+    }
+    
+    .bolt{  
+        position: absolute;
+        z-index: 1;
+        top: 170px;
+        left: 30px;
+        width: 15px;
+        height: 28px;
+        background: yellow;      
+        border-right: none;
+        border-radius: 100%;
+    }
+    
+    .bolt:before{
+        z-index: 1;
+        position: absolute;
+        content: '';
+        top: -2px;
+        left: 135px;
+        width: 15px;
+        height: 28px;
+        background: yellow;      
+        border-left: none;     
+        border-radius: 100%;      
+    }
+    
+    .hair{
+        position: absolute;      
+        z-index: 20;        
+    }
+     
+    .hair div{        
+        position: absolute;
+        top: 25px;
+        left: 58px;         
+        border-bottom: 30px solid yellow;
+        border-left: 25px solid transparent;
+        border-right: 10px solid transparent;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 25em;
+    }
+    
+    .hair div:nth-child(2){     
+        left: 80px; 
+        top: 20px;
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+    
+    .hair div:nth-child(3){
+        left: 100px;
+    }
+    
+    .hair div:nth-child(4){
+        left: 120px;
+    }
+    
+    .hair div:nth-child(5){
+        margin-top: 5px;
+        left: 50px;
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 80px;        
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+    
+    .eye{
+        top: 110px;
+        left: 33px;
+        width: 60px;
+        height: 60px;      
+        background: #FFF;
+        border-radius: 100%;
+        border: 1px solid #3B3F4B;
+        position: absolute;
+    }
+    
+    .eye:before{
+        position: absolute;
+        content: '';
+        top: -2px;
+        left: 83px;
+        width: 60px;
+        height: 60px;
+        background: #FFF;
+        border-radius: 100%;
+        border: 1px solid #3B3F4B;
+    }
+     
+    .eye-black{
+        top: 30px;
+        right: 27px;
+        width: 5px;
+        height: 5px;      
+        background: black;
+        border-radius: 100%;        
+        position: absolute;     
+    }
+     
+    .eye-black:before{
+        position: absolute;
+        content: '';        
+        left: 83px;
+        width: 5px;
+        height: 5px;
+        background: black;
+        border-radius: 100%;        
+    }
+     
+    .neck{
+       position: absolute;
+       z-index: 2;
+       height: 70px;
+       width: 60px;
+       background-color: yellow;
+       margin-left: 225px;
+       top: 230px;
+       border-top: 0;
+       border-radius: 5px;
+       border-top-left-radius: 35px;
+       border-top-right-radius: 35px;
+       border-bottom-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+       transform: scaleY(-1);
+       filter: FlipH;
+       -ms-filter: "FlipH";
+    }
+     
+   .body{ 
+        position: absolute;
+        z-index: 2;        
+        border-bottom: 100px solid red; 
+        border-left: 25px solid transparent; 
+        border-right: 25px solid transparent; 
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 73px; 
+        width: 60px;
+        margin-left: 200px; 
+        margin-top: -50px;
+    } 
+    
+    .tshirt{     
+      position: relative;
+      height: 50px;
+      width: 40px;
+      background-color: red;
+      margin-top: 20px;
+      margin-left: 188px;
+      border-top-left-radius: 80px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 40px;
+    }
+    
+    .tshirt-left{  
+      position: absolute;
+      height: 50px;
+      width: 40px;
+      background-color: red;
+      margin-top: -50px;
+      margin-left: 280px;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 40px;
+    }
+    
+    .arms{     
+        border-bottom: 100px solid yellow; 
+        border-left: 25px solid transparent; 
+        border-right: 25px solid transparent; 
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 1px; 
+        width: 100px;
+        margin-left: 179px; 
+        margin-top: -50px;
+    }
+    
+    p{
+      font-family: 'Indie Flower', cursive;
+      font-size: 80px;
+      color: white;
+      text-align: center;
+      text-shadow: 3px 3px 3px red;
+      margin-top: 10px;
+    }
+   
+    
+    
