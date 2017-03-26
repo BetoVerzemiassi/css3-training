@@ -3,7 +3,9 @@
 Desenhando com CSS3 e HTML5
 
 
-* Nesse repositório realizei minha primeira experiência por indicação de um amigo de trabalho, onde realizei a montagem de um personagem muito conhecido chamado Bart-Simpson
+* Nesse repositório realizei minha primeira experiência por indicação de um amigo de trabalho, onde desenvolvi um personagem muito conhecido chamado Bart-Simpson.
+
+* Estou deixando o arquivo bart.html onde está toda estrutura HTML para criação do personagem, estilo-bart.css responsável por todo o estilo do personagem e uma imagem do personagem para comparação.
 
 * Utilizei para o desenvolvimento a estrutura DOM e propriedades CSS3
 
