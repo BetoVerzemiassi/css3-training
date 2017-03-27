@@ -11,8 +11,6 @@ Desenhando com CSS3 e HTML5
 
  ##Bart-Simpson
 
-[ JSFiddle Demo ] 
-
- - https://jsfiddle.net/AlbertoVerzemiassi/kvy53vg4/198/
+[JSFiddle Demo](https://jsfiddle.net/AlbertoVerzemiassi/kvy53vg4/198/)
 
 Obs:  Sinta-se livre para baixá-lo, melhorá-lo, reclamar sobre ele.
