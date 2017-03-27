@@ -16,5 +16,3 @@ Desenhando com CSS3 e HTML5
  - https://jsfiddle.net/AlbertoVerzemiassi/kvy53vg4/198/
 
 Obs:  Sinta-se livre para baixá-lo, melhorá-lo, reclamar sobre ele.
-
-# Teste
